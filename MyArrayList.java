@@ -74,9 +74,6 @@ public class MyArrayList<E> {
     public E remove(int index) {
         rangeCheckIndex(index);
 
-        //1 2 3 4 5     index = 2       5 - index2 = 3
-        //1 2 4 5       sizeindex = index + 1;
-
         E e = (E) this.data[index];
 
         //使用copyOf
