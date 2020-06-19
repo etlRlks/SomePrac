@@ -20,7 +20,7 @@ class CircleArray {
 
     // 判断队列是否满
     public boolean isFull() {
-		    return nItem == maxSize;
+	return nItem == maxSize;
     }
 
     // 判断队列是否为空
